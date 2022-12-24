@@ -11,6 +11,10 @@ public class LinkedListDemo {
 		list.add("Chetan");
 		list.add("Swapnil");
 		list.add("Rutik");
-		System.out.println(list);
+		
+		for(String s : list) {
+			System.out.println(s);
+			
+		}
 	}
 }
